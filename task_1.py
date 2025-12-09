@@ -1,6 +1,6 @@
 
 def convert_to_uah(amount, rate=41.5) :
-    print(f"Result: {amount*rate}UAH")
+    return(f"Result: {round(amount*rate)}UAH")
 
-convert_to_uah(100)
-convert_to_uah(100,38)
+print(convert_to_uah(100))
+print(convert_to_uah(100,38))
